@@ -1,0 +1,217 @@
+.wrap{
+     background-color: #eeebe5;
+     font-family: 'Noto Sans KR';
+     max-width: 375px;
+     max-height: 756px;
+     margin: auto;
+     
+ }
+ 
+ .header {
+    background-color: #eeebe5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 21px 33px 27px;
+}
+
+.header .h2{
+    font-weight: 300;
+}
+
+.headerImage {
+    display: flex;
+}
+
+.headerImage .userCheck{
+    margin-right: 18px;
+}
+
+
+/* .account_info */
+.account_info{
+    background-color: #ffffff;
+    width: 279px;
+    height: 155px;
+    box-shadow: 0px 0px 16px rgba(226, 191, 66, 0, 19);
+    border-radius: 12px;
+    z-index: 1;
+    margin: 0 auto 21px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.account_info .account_info_number{
+    font-weight: 500;
+    font-size: 14px;
+    color: #858585;
+    margin: auto 30px auto 50px;
+}
+
+.account_info .account_info_transfer{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+}
+
+.account_info .h2_bold{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+.account_info .account_bar{
+    display: flex;
+    text-align: center;
+}
+
+.account_info .account_bar .chat_bar_grey{
+    background-color: #c4c4c4;
+    float: left;
+    margin: auto 15px auto 30px;
+    width: 202px;
+    height: 6px;
+    border-radius: 6px;
+}
+
+.account_info .account_bar .chat_bar_yellow{
+    background-color: #ffdb4c;
+    height: 100%;
+    width: 70%;
+    position: relative;
+    border-radius: 6px 0 0 6px;
+}
+
+.account_info .account_bar .chat_bar_yellow::after{
+    content: '';    
+    display: block;
+    position: absolute;
+    top: -7px;
+    right: 0;
+    background-color: #ff5f00;
+    height: 17px;
+    width: 4px;
+    border-radius: 15px;
+    border: 2px solid white;
+    z-index: 1;
+}
+
+.account_info .account_bar .mdi_bar{
+    margin-top: 2px;
+}
+
+.account_info .account_info_explan{
+    font-size: 14px;
+    color: #858585;
+}
+
+.adv{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    margin: 14px 30px 14px 40px;
+}
+
+.account_history{
+    background-color: #f5f5f5;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 14px 0 6px;
+}
+
+.account_history .drag_list{
+    background-color: #c4c4c4;
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 2px;
+    border-radius: 4px;
+}
+
+.account_history .save_list>ul{
+    overflow: hidden;
+}
+
+.account_history .save_list{
+    width: 337px;
+    height: 47px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+}
+.account_history .save_list .save_list_grey{
+    background-color: #dadada;
+    width: 162px;
+    height: 47px;
+    border-radius: 5px;
+    display: flex;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.account_history .save_list .save_list_grey .save_list_orange{
+    background-color: #ff5f00;
+    color: white;
+    margin-right: 18px;
+    float: left;
+    width: 70%;
+    height: 47px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.account_history .save_list .save_list_grey .save_list_yellow{
+    background-color: #feb700;
+    color: white;
+    margin-right: 18px;
+    float: left;
+    width: 80%;
+    height: 47px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.account_history .recent{
+    width: 302px;
+    height: 294px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.account_history .recent .recent_day{
+    padding-bottom: 38px;
+}
+
+
+.account_history .recent .recent_title{
+    height: 21px;
+}
+
+.recent .recent_list{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdcdc;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    max-width: 302px;
+    margin-bottom: 5px;
+}
+
+.recent .recent_list .recent_name{
+    margin-bottom: 5px;
+}
+
+
+.nav_list{
+    display: flex;
+    height: 76px;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#00BDB2 100%, #C4E7B8 100%);
+}
